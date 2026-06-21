@@ -1,6 +1,3 @@
-# internship-assessment-2026
-internshhip tasks summer 2026
-
 # PCN Research Internship Assessment 2026
 
 Welcome to the internship assessment repository of the Parallel Computing and Networks (PCN) Research Lab.
@@ -8,15 +5,15 @@ Welcome to the internship assessment repository of the Parallel Computing and Ne
 ## Important Dates
 
 Task Release:
-23 June 2026
+22 June 2026
 10:00 AM
 
 Submission Deadline:
-25 June 2026
+24 June 2026
 11:59 PM
 
 Duration:
-48 Hours
+62 Hours
 
 ## Available Tasks
 
@@ -52,10 +49,15 @@ Real-Time Multi-Source Data Integration (Producer--Consumer Pipeline)
 PCN-Internship-2026-YouName
 │
 ├── README.md
+
 ├─report
-├── src
+
+├  src
+
 ├── outputs
-├── data
+
+├── dscrapped
+
 └── demo_video
 
 #Report Structure
