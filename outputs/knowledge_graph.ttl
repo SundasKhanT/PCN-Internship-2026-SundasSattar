@@ -1,0 +1,169 @@
+@prefix ex: <http://pcn2026.org/kg/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://pcn2026.org/kg/district/Dera_Ghazi_Khan> a ex:District ;
+    ex:caseCount 5,
+        15,
+        30,
+        33 ;
+    ex:hasDisaster <http://pcn2026.org/kg/disaster/flood> ;
+    ex:hasDisease <http://pcn2026.org/kg/disease/dengue>,
+        <http://pcn2026.org/kg/disease/diarrhoea>,
+        <http://pcn2026.org/kg/disease/ili>,
+        <http://pcn2026.org/kg/disease/malaria> ;
+    ex:humidity 4e+01,
+        4.1e+01,
+        5.3e+01 ;
+    ex:severity "moderate" ;
+    ex:temperature 3.46e+01,
+        3.47e+01,
+        3.98e+01,
+        4.02e+01 .
+
+<http://pcn2026.org/kg/district/Islamabad> a ex:District ;
+    ex:caseCount 8,
+        15,
+        21,
+        68 ;
+    ex:hasDisease <http://pcn2026.org/kg/disease/dengue>,
+        <http://pcn2026.org/kg/disease/diarrhoea>,
+        <http://pcn2026.org/kg/disease/ili>,
+        <http://pcn2026.org/kg/disease/malaria> ;
+    ex:humidity 4.2e+01,
+        6.7e+01,
+        6.8e+01 ;
+    ex:temperature 3.11e+01,
+        3.13e+01,
+        3.76e+01,
+        3.81e+01 .
+
+<http://pcn2026.org/kg/district/Karachi> a ex:District ;
+    ex:caseCount 8,
+        17,
+        52 ;
+    ex:hasDisease <http://pcn2026.org/kg/disease/dengue>,
+        <http://pcn2026.org/kg/disease/diarrhoea>,
+        <http://pcn2026.org/kg/disease/ili>,
+        <http://pcn2026.org/kg/disease/malaria> ;
+    ex:humidity 6.6e+01,
+        6.7e+01,
+        8.4e+01 ;
+    ex:temperature 2.9e+01,
+        3.1e+01,
+        3.13e+01 .
+
+<http://pcn2026.org/kg/district/Lahore> a ex:District ;
+    ex:caseCount 5,
+        8,
+        21,
+        56 ;
+    ex:hasDisaster <http://pcn2026.org/kg/disaster/heatwave>,
+        <http://pcn2026.org/kg/disaster/landslide> ;
+    ex:hasDisease <http://pcn2026.org/kg/disease/dengue>,
+        <http://pcn2026.org/kg/disease/diarrhoea>,
+        <http://pcn2026.org/kg/disease/ili>,
+        <http://pcn2026.org/kg/disease/malaria> ;
+    ex:humidity 3.6e+01,
+        3.7e+01,
+        6.7e+01,
+        6.8e+01 ;
+    ex:severity "catastrophic",
+        "minor",
+        "moderate" ;
+    ex:temperature 3.28e+01,
+        3.29e+01,
+        3.96e+01,
+        4.01e+01 .
+
+<http://pcn2026.org/kg/district/Peshawar> a ex:District ;
+    ex:caseCount 14,
+        15,
+        31,
+        53 ;
+    ex:hasDisease <http://pcn2026.org/kg/disease/dengue>,
+        <http://pcn2026.org/kg/disease/diarrhoea>,
+        <http://pcn2026.org/kg/disease/ili>,
+        <http://pcn2026.org/kg/disease/malaria> ;
+    ex:humidity 2.5e+01,
+        4.6e+01,
+        4.9e+01 ;
+    ex:temperature 3.51e+01,
+        3.54e+01,
+        4.32e+01,
+        4.35e+01 .
+
+<http://pcn2026.org/kg/district/Quetta> a ex:District ;
+    ex:caseCount 5,
+        11,
+        23,
+        35 ;
+    ex:hasDisaster <http://pcn2026.org/kg/disaster/flood> ;
+    ex:hasDisease <http://pcn2026.org/kg/disease/dengue>,
+        <http://pcn2026.org/kg/disease/diarrhoea>,
+        <http://pcn2026.org/kg/disease/ili>,
+        <http://pcn2026.org/kg/disease/malaria> ;
+    ex:humidity 9e+00,
+        1e+01,
+        5.8e+01,
+        5.9e+01 ;
+    ex:severity "moderate" ;
+    ex:temperature 2.64e+01,
+        2.67e+01,
+        3.79e+01,
+        3.9e+01 .
+
+<http://pcn2026.org/kg/district/Rahim_Yar_Khan> a ex:District ;
+    ex:caseCount 9,
+        10,
+        15,
+        57 ;
+    ex:hasDisease <http://pcn2026.org/kg/disease/dengue>,
+        <http://pcn2026.org/kg/disease/diarrhoea>,
+        <http://pcn2026.org/kg/disease/ili>,
+        <http://pcn2026.org/kg/disease/malaria> ;
+    ex:humidity 3.5e+01,
+        3.6e+01,
+        4.4e+01 ;
+    ex:temperature 3.6e+01,
+        3.62e+01,
+        4.06e+01,
+        4.07e+01 .
+
+<http://pcn2026.org/kg/policy/Billion_Tree_Tsunami_Programme_Phase_II> a ex:Policy ;
+    ex:status "Completed" ;
+    ex:title "Billion Tree Tsunami Programme Phase II" .
+
+<http://pcn2026.org/kg/policy/Heat_Action_Plan_-_Karachi_2024> a ex:Policy ;
+    ex:status "Draft" ;
+    ex:title "Heat Action Plan - Karachi 2024" .
+
+<http://pcn2026.org/kg/policy/Indus_Waters_&_Climate_Adaptation_Strategy> a ex:Policy ;
+    ex:status "Completed" ;
+    ex:title "Indus Waters & Climate Adaptation Strategy" .
+
+<http://pcn2026.org/kg/policy/National_Climate_Change_Policy_2023> a ex:Policy ;
+    ex:status "Under Review" ;
+    ex:title "National Climate Change Policy 2023" .
+
+<http://pcn2026.org/kg/policy/Pakistan_Floods_Emergency_Response_Plan_2022> a ex:Policy ;
+    ex:status "Active" ;
+    ex:title "Pakistan Floods Emergency Response Plan 2022" .
+
+<http://pcn2026.org/kg/policy/Renewable_Energy_Policy_2025> a ex:Policy ;
+    ex:status "Active" ;
+    ex:title "Renewable Energy Policy 2025" .
+
+<http://pcn2026.org/kg/disaster/heatwave> a ex:Disaster .
+
+<http://pcn2026.org/kg/disaster/landslide> a ex:Disaster .
+
+<http://pcn2026.org/kg/disaster/flood> a ex:Disaster .
+
+<http://pcn2026.org/kg/disease/dengue> a ex:Disease .
+
+<http://pcn2026.org/kg/disease/diarrhoea> a ex:Disease .
+
+<http://pcn2026.org/kg/disease/ili> a ex:Disease .
+
+<http://pcn2026.org/kg/disease/malaria> a ex:Disease .
+

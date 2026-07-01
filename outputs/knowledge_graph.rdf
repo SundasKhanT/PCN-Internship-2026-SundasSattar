@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ex="http://pcn2026.org/kg/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/district/Dera_Ghazi_Khan">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/District"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/dengue"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/diarrhoea"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/ili"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/malaria"/>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ex:caseCount>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">34.6</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.2</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">34.7</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">39.8</ex:temperature>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.0</ex:humidity>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.0</ex:humidity>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">41.0</ex:humidity>
+    <ex:hasDisaster rdf:resource="http://pcn2026.org/kg/disaster/flood"/>
+    <ex:severity>moderate</ex:severity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/district/Islamabad">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/District"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/dengue"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/diarrhoea"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/ili"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/malaria"/>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ex:caseCount>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">38.1</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.1</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.6</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.3</ex:temperature>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">42.0</ex:humidity>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">68.0</ex:humidity>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">67.0</ex:humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/policy/Pakistan_Floods_Emergency_Response_Plan_2022">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/Policy"/>
+    <ex:title>Pakistan Floods Emergency Response Plan 2022</ex:title>
+    <ex:status>Active</ex:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/district/Peshawar">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/District"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/dengue"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/diarrhoea"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/ili"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/malaria"/>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ex:caseCount>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.2</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.1</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.5</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.4</ex:temperature>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</ex:humidity>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.0</ex:humidity>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">46.0</ex:humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/district/Rahim_Yar_Khan">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/District"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/dengue"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/diarrhoea"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/ili"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/malaria"/>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ex:caseCount>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.0</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.6</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.2</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.7</ex:temperature>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">44.0</ex:humidity>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.0</ex:humidity>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.0</ex:humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/disease/dengue">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/district/Lahore">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/District"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/dengue"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/diarrhoea"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/ili"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/malaria"/>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ex:caseCount>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">32.8</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.1</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">32.9</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">39.6</ex:temperature>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">68.0</ex:humidity>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.0</ex:humidity>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">67.0</ex:humidity>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.0</ex:humidity>
+    <ex:hasDisaster rdf:resource="http://pcn2026.org/kg/disaster/landslide"/>
+    <ex:hasDisaster rdf:resource="http://pcn2026.org/kg/disaster/heatwave"/>
+    <ex:severity>catastrophic</ex:severity>
+    <ex:severity>minor</ex:severity>
+    <ex:severity>moderate</ex:severity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/policy/Heat_Action_Plan_-_Karachi_2024">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/Policy"/>
+    <ex:title>Heat Action Plan - Karachi 2024</ex:title>
+    <ex:status>Draft</ex:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/district/Karachi">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/District"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/dengue"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/diarrhoea"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/ili"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/malaria"/>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</ex:caseCount>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.0</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">29.0</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.3</ex:temperature>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">67.0</ex:humidity>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">84.0</ex:humidity>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">66.0</ex:humidity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/policy/Renewable_Energy_Policy_2025">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/Policy"/>
+    <ex:title>Renewable Energy Policy 2025</ex:title>
+    <ex:status>Active</ex:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/policy/Indus_Waters_&amp;_Climate_Adaptation_Strategy">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/Policy"/>
+    <ex:title>Indus Waters &amp; Climate Adaptation Strategy</ex:title>
+    <ex:status>Completed</ex:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/district/Quetta">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/District"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/dengue"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/diarrhoea"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/ili"/>
+    <ex:hasDisease rdf:resource="http://pcn2026.org/kg/disease/malaria"/>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</ex:caseCount>
+    <ex:caseCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ex:caseCount>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.9</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">26.4</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">39.0</ex:temperature>
+    <ex:temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#double">26.7</ex:temperature>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</ex:humidity>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">59.0</ex:humidity>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.0</ex:humidity>
+    <ex:humidity rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58.0</ex:humidity>
+    <ex:hasDisaster rdf:resource="http://pcn2026.org/kg/disaster/flood"/>
+    <ex:severity>moderate</ex:severity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/disaster/heatwave">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/Disaster"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/policy/National_Climate_Change_Policy_2023">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/Policy"/>
+    <ex:title>National Climate Change Policy 2023</ex:title>
+    <ex:status>Under Review</ex:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/policy/Billion_Tree_Tsunami_Programme_Phase_II">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/Policy"/>
+    <ex:title>Billion Tree Tsunami Programme Phase II</ex:title>
+    <ex:status>Completed</ex:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/disaster/landslide">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/Disaster"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/disease/ili">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/disaster/flood">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/Disaster"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/disease/malaria">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pcn2026.org/kg/disease/diarrhoea">
+    <rdf:type rdf:resource="http://pcn2026.org/kg/Disease"/>
+  </rdf:Description>
+</rdf:RDF>

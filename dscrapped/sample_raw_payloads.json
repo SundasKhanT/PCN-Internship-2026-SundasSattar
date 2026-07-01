@@ -1,0 +1,34 @@
+{
+  "nih_raw_sample": {
+    "record_id": "a18b22af-33da-4f12-8b42-dd73dc92dd31",
+    "source": "NIH_PAKISTAN",
+    "epi_year": 2026,
+    "epi_week": 27,
+    "district": "Lahore",
+    "disease": "dengue",
+    "case_count": 9,
+    "idsr_compliance_pct": 74.5,
+    "ingestion_ts": "2026-06-30T20:26:54.909150+00:00"
+  },
+  "ndma_raw_sample": {
+    "alert_id": "NDMA-106EB19D",
+    "source": "NDMA",
+    "event_type": "flood",
+    "district": "D.G Khan",
+    "severity": "moderate",
+    "description": "Flood reported in D.G Khan on 30 June 2026; severity moderate."
+  },
+  "weather_raw_sample": {
+    "source": "PMD",
+    "district": "Lahore",
+    "temperature_c": 31.3,
+    "humidity_pct": 68.0,
+    "precipitation_mm": 0.0
+  },
+  "policy_raw_sample": {
+    "source": "MOCC_PAKISTAN",
+    "title": "National Climate Change Policy 2023",
+    "policy_type": "National Policy",
+    "status": "Under Review"
+  }
+}

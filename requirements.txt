@@ -1,0 +1,9 @@
+kafka-python
+requests
+feedparser
+pandas
+pyarrow
+python-dotenv
+pyspark
+geopy
+py-heideltime
